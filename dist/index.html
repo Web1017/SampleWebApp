@@ -9,6 +9,7 @@
     <!-- CSS Goes Here -->
     <script src="https://kit.fontawesome.com/428132ae7e.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/simplelightbox.min.css">
     <link rel="stylesheet" href="css/app.css">
 
@@ -31,7 +32,8 @@
             <h1 class="logo">CameraFocus</h1>
             <ul class="nav">
                 <li><a href="#home"> Home</a></li>
-                <li><a href="#about"> About</a></li>
+                <li><a href="about.html"> About</a></li>
+                <li><a href="contact.html"> Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -43,7 +45,7 @@
                 <h1>The Product of our the Next Gen Technology </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, mollitia ducimus. Laudantium eum
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="about.html" class="btn">Read More</a>
             </div>
             <img src="img/Analog-camera-1.jpg" alt="">
         </div>
@@ -60,6 +62,66 @@
             </div>
         </div>
     </section>
+
+    <!-- Content - Section B2 -->
+    <section class="b2-content-block">
+        <div class="container">
+            <div class="row b2-content-block-row">
+                <div class="col-lg-6">
+                    <div class="image-block d-flex">
+                        <img src="https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="camera1">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="b2-text">
+                        <h2 class="mb-3">Innovative Technology</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores delectus iste laborum
+                            repellendus. Sunt nesciunt molestiae possimus accusamus modi rerum!</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Content - Details #2 -->
+            <div class="row b2-content-block-row">
+                <div class="col-lg-6 order-lg-2 order-xl-2">
+                    <div class="image-block d-flex ">
+                        <img src="https://images.pexels.com/photos/2027044/pexels-photo-2027044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="camera2">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1 order-xl-1">
+                    <div class="b2-text">
+                        <h2 class="mb-3">High Quality Lens</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eveniet voluptates,
+                            commodi est deleniti autem</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Content - Details #3 -->
+            <div class="row b2-content-block-row">
+                <div class="col-lg-6 ">
+                    <div class="image-block d-flex">
+                        <img src="https://images.pexels.com/photos/1655817/pexels-photo-1655817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="camera2">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="b2-text">
+                        <h2 class="mb-3">Advanced Design Features</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores delectus iste laborum
+                            repellendus. Sunt nesciunt molestiae possimus accusamus modi rerum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 
     <!-- Gallery - Section C -->
     <section class="section-c">
@@ -102,7 +164,7 @@
                 <h3>Company Info</h3>
                 <ul>
                     <li><a href="#">Products & Services</a></li>
-                    <li><a href="#">Abous Us</a></li>
+                    <li><a href="about.html">Abous Us</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms of Services</a></li>
                 </ul>
@@ -117,7 +179,7 @@
             </div>
             <div>
                 <h3>Subscribe</h3>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum?</p>
+
                 <form name="email-form" method="POST" data-netlify="true">
                     <div class="email-form">
                         <span class="form-control-wrap">
@@ -136,6 +198,7 @@
     <!-- Scripts GOES HERE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="scripts\simple-lightbox.min.js"></script>
+    <script src="../dist/scripts/app.js"></script>
     <script>
         $(function () {
             const $gallery = $('.gallery a').simpleLightbox();

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS Goes Here -->
+    <script src="https://kit.fontawesome.com/428132ae7e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <!-- =======================================================
+        Theme Name: SampleWebApp
+        Github: https://github.com/Web1017/SampleWebApp
+        Author: Javid Niftaliyev
+        Date: August 2019
+    ======================================================= -->
+
+
+    <title>Sample - Website</title>
+</head>
+
+<body id="about">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">CameraFocus</h1>
+            <ul class="nav">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html"> About</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact US Section -->
+
+    <div class="contact_header jumbotron text-center">
+        <h1 class="display-4">Contact Us</h1>
+        <p>Any questions you may have, feel free to reach us anytime.</p>
+    </div>
+
+    <div class="contact_form_wrapper container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact_form">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Name">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" placeholder="Enter Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="text" class="form-control" placeholder="Enter Phone">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label>City</label>
+                                <input type="text" class="form-control" placeholder="Enter City">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" class="form-control" placeholder="Enter Subject">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row text-center mt-2">
+                        <div class="col-sm-12">
+                            <button class="btn btn-md btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer - Section D -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Lorem ipsum dolor sit.</h2>
+                <a href="htttp://twitter.com">
+                    <i class="fab fa-twitter fa-2x"></i></a>
+                <a href="htttp://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i></a>
+                <a href="htttp://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">Products & Services</a></li>
+                    <li><a href="about.html">Abous Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                    <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                    <li><a href="#"></a>Lorem, ipsum dolor.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40" class="form-control"
+                                placeholder="Email">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Scripts GOES HERE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts\simple-lightbox.min.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+
+</html>
