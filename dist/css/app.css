@@ -495,6 +495,9 @@ img {
 
     .image-block img {
         border-radius: 4%;
+        height: 50%;
+        padding: auto;
+        margin: auto;
     }
 
     .b2-text {
