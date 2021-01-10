@@ -491,11 +491,17 @@ img {
 
     .b2-content-block {
         display: block;
+
     }
+
+    .b2-content-block img {
+        height: 200px;
+    }
+
 
     .image-block img {
         border-radius: 4%;
-        height: 50%;
+        height: 200px;
         padding: auto;
         margin: auto;
     }
