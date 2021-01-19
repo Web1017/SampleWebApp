@@ -208,81 +208,92 @@ img {
 
 
 /* Section D - Footer*/
-.section-footer {
-    background: var(--primary-color);
-    color: #fff;
-    padding: 4rem 0;
+.footer {
+    background: var(--primary-color) !important;
+    height: 400px;
+   
 }
 
-.section-footer .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
+
+.footer h4 {
+    color:#ffffff;
+    font-weight: bolder;
+    margin-top: 50px;
+    border-left: 3px solid #eeeeee;
+    padding-left: 5px;
+    margin-top: 80px;
+    
+   
+}
+.footer h5{
+	padding-left: 5px;
+    border-left: 1px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    color:#ffffff;
+    
 }
 
-.section-footer h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.section-footer h3 {
-    margin-bottom: 0.7rem;
-}
-
-.section-footer a {
-    line-height: 1.9;
-    color: #ccc;
-}
-
-.section-footer a>i {
-    color: #555;
-    margin-right: 0.5rem;
-}
-
-/* Footer - Email Form  */
-.email-form {
-    width: 100%;
-    display: inline-block;
-    background-color: #555;
-    position: relative;
-    border-radius: 20px;
-    line-height: 0;
-    margin-top: 1rem;
-}
-
-.email-form .form-control {
-    display: inline-block;
-    border: 0;
-    outline: 0;
+.footer p {
+    color:#ffffff;
+    font-weight: lighter;
     font-size: 1rem;
-    color: #ddd;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none !important;
     background-color: transparent;
-    font-family: inherit;
-    margin: 0;
-    padding: 0 3rem 0 1.5rem;
-    width: 100%;
-    height: 45px;
-    border-radius: 20px;
+    -webkit-text-decoration-skip: objects;
+    margin-top: 2rem;
 }
 
-.email-form .submit {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45px;
-    height: 45px;
-    background-color: #eee;
-    font-size: 1rem;
+.copyright {
     text-align: center;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    border: 0;
-    color: #333;
-    cursor: pointer;
-    border-radius: 0 20px 20px 0;
+    margin-top: 3.5rem;
 }
+
+.Address {
+    color:#ffffff;
+    font-size: 1rem;
+}
+
+
+.Business {
+    color:#ffffff;
+}
+
+.social-list {
+    display: grid;
+    font-size: 1rem;
+
+}
+
+.social-list li:hover {
+    font-weight:700;
+}
+
+.page-links {
+    font-size: 1rem;
+}
+
+.footer ul.page-links li{
+	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.footer ul.page-links li:hover{	
+    font-weight:700;
+    
+}
+
+.footer ul.page-links li:hover a i {
+    font-weight: 700;
+}
+
+
 
 
 
@@ -442,6 +453,9 @@ img {
 
 
 
+
+
+
 /* Media Queries - Mobile responsive */
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 
@@ -514,21 +528,15 @@ img {
 
 
     /* Footer Section */
-
-    .section-footer {
-        padding: 2rem 0;
+    .footer {
+       height: 800px;
     }
 
-    .section-footer .container {
-        grid-template-columns: 1fr;
-        text-align: center;
+   .Address {
+       padding-right: 20px;
+   }
 
-    }
-
-    .section-footer div:nth-child(2),
-    .section-footer div:nth-child(3) {
-        display: none;
-    }
+    /*Content - Section B2 */
 
     .b2-text h2 {
         font-size: 2rem;
